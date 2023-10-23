@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background: rgba(229, 84, 115, 0.12);
+
+}
+
+.header-area{
+    display: flex;
+  
+    padding-top: 30px;
+}
+
+.header-left{
+    width: 60%;
+    margin-top: 80px;
+}
+
+header h1{
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+header p{
+    font-size:18px;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 32px 0px;
+}
+
+header button{
+    font-size: 16px;
+    color: #ffffff;
+    background: #E55473;
+    border-radius: 8px;
+    padding: 20px 40px;
+    border: #E55473;
+    border: none;
+}
+.header-right{
+    width: 40%;
+}
+
+.header-right img{
+    width: 80%;
+}
+
+main{
+    width: 100%;
+}
+
+.product-details{
+   margin-top: 50px; 
+}
+
+.product-description{
+    text-align: center;
+}
+
+.product-description h2{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.product-description p{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.products{
+   display: flex;
+   align-content:end;
+   justify-content: space-between;
+   margin-top: 80px;
+}
+
+.product1, .product2, .product3{
+    text-align: center;
+    width: 32%;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+}
+
+.product2{
+    background: rgba(5, 151, 160, 0.15);
+    
+}
+
+.produc3{
+    background: rgba(71, 125, 17, 0.15);
+    
+}
+
+.product-image img{
+    width: 280px;
+    padding: 80px 40px 0px 40px;
+}
+
+.product-link{
+    text-align: center;
+}
+
+.product-link a{
+    color: #000;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.delivery-section{
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 40px 0px;
+    margin-top: 100px;
+}
+
+.option1, .option2, .option3{
+  text-align: center;
+}
+
+.option1 p, .option2 p, .option3 p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.option1 img, .option2 img, .option3 img{
+    width: 88px;
+    height: 88px;
+}
+
+.hot-deal{
+    margin-top: 100px;
+    background: rgba(229, 84, 115, 0.05);
+
+}  
+
+.hot-deal-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.deal-left{
+    text-align: center;
+
+}
+
+.deal-left h3{
+    font-size: 34px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.deal-left h3 span{
+    color: #E55473;
+}
+
+.deal-left p{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.deal-left button{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 16px 40px;
+    border: none;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.deal-right img{
+    width: 80%;
+}
+
+.flower-insta{
+    text-align: center;
+}
+
+.flower-insta h3{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.flower-insta p{
+    margin-top: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.flower-image{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-form{
+    margin-top: 100px;
+    background:url(./images/subscribe.png) no-repeat;
+    padding: 100px;
+
+}
+
+.subscribe-form h3{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.subscribe-form p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.subscribe-form form{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subscribe-form form input{
+    padding: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background: #FFF;
+    width: 470px;
+    margin-right: 20px;
+}
+
+.subscribe-form form button{
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    padding: 10px 14px;
+}
+
+footer{
+    margin-top: 100px;
+    background: #111010;
+    text-align: center;
+    padding: 70px;
+}
+
+footer h3{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer h3 span{
+    color: #fff;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding: 30px 0px;
+}
